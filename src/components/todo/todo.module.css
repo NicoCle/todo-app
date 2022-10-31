@@ -1,0 +1,87 @@
+.todoContainer {
+  width: 600px;
+  padding: 1rem 0;
+}
+.addDetailsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formAddDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputAddDetails {
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border: 2px solid rgb(189, 189, 189);
+  width: 75%;
+  background: rgb(242, 242, 242);
+  font-weight: 600;
+}
+.inputAddDetails:focus {
+  outline: none;
+}
+.buttonAddDetails {
+  padding: 1rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  width: 20%;
+  border-radius: 0.7rem;
+  border: 2px solid rgb(47, 128, 237);
+  background: rgb(47, 128, 237);
+}
+.buttonAddDetails:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.listTask {
+  padding: 1rem 0;
+  width: 100%;
+}
+.itemsTask {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+.checkboxTask {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.labelTask {
+  font-weight: 600;
+}
+.checkboxTask:checked + .labelTask {
+  text-decoration: line-through;
+}
+.addDetailsContainerCompleted {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.listTaskCompleted {
+  padding: 1rem 0;
+  width: 100%;
+}
+.itemsTaskCompleted {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.checboxTaskContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Trash {
+  color: rgb(255, 60, 100);
+}
+.Trash:hover {
+  cursor: pointer;
+}
